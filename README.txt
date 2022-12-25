@@ -17,3 +17,6 @@ show-5/Stranger Things // https://youtu.be/b9EkMc79ZSU
 show-6/The Watcher // https://youtu.be/5HDkw100sXQ
 show-7/Manifest // https://youtu.be/I1hNAIzkQWY
 show-8/Dahmer // https://youtu.be/NVHHs-xllqo
+
+Flori Vula
+Zani Lleshi
