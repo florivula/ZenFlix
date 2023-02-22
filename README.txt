@@ -17,6 +17,3 @@ show-5/Stranger Things // https://youtu.be/b9EkMc79ZSU
 show-6/The Watcher // https://youtu.be/5HDkw100sXQ
 show-7/Manifest // https://youtu.be/I1hNAIzkQWY
 show-8/Dahmer // https://youtu.be/NVHHs-xllqo
-
-Flori Vula    212257184     fv57184@ubt-uni.net
-Zani Lleshi   212257347     zl57347@ubt-uni.net

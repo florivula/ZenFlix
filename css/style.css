@@ -11,7 +11,7 @@
 /* Some Varibles */
 :root {
   --main-color: #3BE5F5;
-  --hover-color: hsl(37, 94%, 57%);
+  --hover-color: #21858e;
   --body-color: #0D3236;
   --container-color: #2d2e37;
   --text-color: #fcfeff;
@@ -127,6 +127,17 @@ header {
 }
 .nav-link-title {
   font-size: 0.88rem;
+}
+.right-nav{
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 1%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.1rem;
+  text-align: center;
+  font-size: 80%;
 }
 /* Home */
 .home {
@@ -248,6 +259,7 @@ header {
   bottom: 0.8rem;
   right: 0.8rem;
 }
+
 /* Movies */
 .movies .heading {
   padding: 10px 14px;
@@ -276,6 +288,10 @@ header {
   border-radius: 1rem;
 }
 .next-btn:hover {
+  background: var(--hover-color);
+  transition: 0.3s all linear;
+}
+.watch-trailer-btn:hover {
   background: var(--hover-color);
   transition: 0.3s all linear;
 }
