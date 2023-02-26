@@ -31,14 +31,7 @@ function krijoSlider(){
 
 krijoSlider();//heren e par e thirrim na herave tjera thirret vet!
 
-
-
-
-
-
-
-
-// array of text to display in the slider
+// array e teksteve display ne slider
 const text = [
   'Top Gun:Maverik',
   'Nope',
@@ -49,18 +42,15 @@ const text = [
   'Babylon'
 ];
 
-// index to keep track of the current text being displayed
 let index2 = 0;
 
-// function to update the text in the slider
+// function per mi bo update text ne slider
 function updateText() {
-  // get the element that will display the text
+
   const textElement = document.getElementById('pershkrimi');
   
-  // set the text of the element to the current text in the array
   textElement.innerHTML = text[index2];
   
-  // update the index to the next text in the array
   index2 = (index2 + 1) % text.length;
 
   if(index2 == vargu.length){
@@ -69,11 +59,6 @@ function updateText() {
 }
 
 setInterval(updateText, 4000);
-
-
-
-
-
 
 const button = document.getElementById("watchTrailer");
 

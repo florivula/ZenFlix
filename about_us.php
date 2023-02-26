@@ -8,7 +8,7 @@
 <body>
   <div>
   <header>
-    <a href="home.html" class="logo">
+    <a href="home.php" class="logo">
       Zen<span>Flix</span>
     </a>
   </header>

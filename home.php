@@ -13,20 +13,20 @@
 <body>
     <header>
         <div class="nav container">
-            <a href="home.html" class="logo">
+            <a href="home.php" class="logo">
                 Zen<span>Flix</span> 
             </a>
             <div class="navbar">
                 <a href="#home" class="nav-link nav-active">
                     <span class="nav-link-title">Home</span>
                 </a>
-                <a href="#popular" class="nav-link">
+                <a href="#trending" class="nav-link">
                     <span class="nav-link-title">Trending</span>
                 </a>
-                <a href="#movies" class="nav-link">
+                <a href="#explore" class="nav-link">
                     <span class="nav-link-title">Explore</span>
                 </a>
-                <a href="pre_order.html" class="nav-link">
+                <a href="pre_order.php" class="nav-link">
                     <span class="nav-link-title">Pre Order</span>
                 </a>
                 
@@ -36,19 +36,19 @@
                 <i class='bx bx-search'></i>
             </div>
             <div>
-                <a href="login.html" class="nav-link">
+                <a href="login.php" class="nav-link">
                     <span class="nav-link-title">Login</span>
                 </a>
             </div>
         </div>
         <div class="right-nav">
-            <a href="news.html" class="nav-link">
+            <a href="news.php" class="nav-link">
                 <span class="nav-link-title">News</span>
             </a>
-            <a href="about_us.html" class="nav-link">
+            <a href="about_us.php" class="nav-link">
                 <span class="nav-link-title">About Us</span>
             </a>
-            <a href="contact_us.html" class="nav-link">
+            <a href="contact_us.php" class="nav-link">
                 <span class="nav-link-title">Contact</span>
             </a>
         </div>
@@ -65,7 +65,7 @@
         </div>
         
     </section>
-    <section class="popular container" id="popular">
+    <section class="popular container" id="trending">
         <div class="heading">
             <h2 class="heading-title">Trending Movies</h2>
         </div>
@@ -75,7 +75,7 @@
             <a href="https://youtu.be/o5F8MOz_IDw" id="watchTrailer" class="watch-trailer-btn">Watch Trailer</a>
         </div>
     </section>
-    <section class="movies container" id="movies">
+    <section class="movies container" id="explore">
         <div class="heading">
             <h2 class="heading-title">TV Shows</h2>
         </div>
@@ -86,7 +86,7 @@
                 <div class="box-text">
                     <h2 class="movie-title">Wednesday</h2>
                     <span class="movie-type">Comedy/Horror</span>
-                    <a href="play-page.html" class="watch-btn play-btn">
+                    <a href="#" class="watch-btn play-btn">
                         <i class='bx bx-right-arrow' ></i>
                     </a>
                 </div>

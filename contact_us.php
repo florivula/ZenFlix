@@ -6,13 +6,13 @@
 </head>
 <body>
   <header>
-    <a href="home.html" class="logo">
+    <a href="home.php" class="logo">
       Zen<span>Flix</span>
     </a>
   </header>
 	<div class="container">
 		<h1>Contact Us</h1>
-		<form>
+		<form method="post" action="save_contact_form.php">
 			<div class="row">
 				<div class="col">
 					<label for="name">Name</label>
@@ -38,7 +38,7 @@
 				<textarea id="message" name="message" placeholder="Enter your message"></textarea>
 			</div>
 			<div class="row">
-				<button type="submit">Submit</button>
+				<button type="submit" href="home.php">Submit</button>
 			</div>
 		</form>
 	</div>

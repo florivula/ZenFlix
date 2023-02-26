@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/pre_order.css">
 </head>
 <body>
-    <a href="home.html" class="logo">
+    <a href="home.php" class="logo">
         Zen<span>Flix</span>
     </a>
     <header>
